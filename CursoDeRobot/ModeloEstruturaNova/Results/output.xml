@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20220801 16:23:16.050" rpa="false" schemaversion="3">
+<suite id="s1" name="Voo" source="C:\Users\usuário\Desktop\CursoDeRobot\ModeloEstruturaNova\suites\voo">
+<suite id="s1-s1" name="Voo" source="C:\Users\usuário\Desktop\CursoDeRobot\ModeloEstruturaNova\suites\voo\voo.robot">
+<test id="s1-s1-t1" name="TC01 - Reservando passagem de destinos dentro dos EUA na classe econômica" line="8">
+<kw name="Acessar o site e logar" library="setup_teardown" type="SETUP">
+<kw name="Dado que eu acesse o php travels" library="home_page">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${geral.URL}</arg>
+<arg>${geral.Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220801 16:23:16.516" level="INFO">Opening browser 'chrome' to base url 'https://www.phptravels.net/'.</msg>
+<status status="PASS" starttime="20220801 16:23:16.513" endtime="20220801 16:23:43.446"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220801 16:23:43.446" endtime="20220801 16:23:43.996"/>
+</kw>
+<status status="PASS" starttime="20220801 16:23:16.513" endtime="20220801 16:23:43.997"/>
+</kw>
+<kw name="E realize o cadastro" library="registro_page">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${registro.ACCOUNT}</arg>
+<arg>20</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<msg timestamp="20220801 16:23:43.999" level="FAIL">Resolving variable '${registro.ACCOUNT}' failed: AttributeError: ACCOUNT</msg>
+<status status="FAIL" starttime="20220801 16:23:43.997" endtime="20220801 16:23:43.999"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${registro.ACCOUNT}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220801 16:23:43.999" endtime="20220801 16:23:44.000"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${registro.A_Signup}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20220801 16:23:44.000" endtime="20220801 16:23:44.000"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${registro.A_Signup}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220801 16:23:44.000" endtime="20220801 16:23:44.000"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${registro.Input_PrimeiroNome}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20220801 16:23:44.000" endtime="20220801 16:23:44.000"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${registro.Input_PrimeiroNome}</arg>
+<arg>${registro.PrimeiroNome}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220801 16:23:44.001" endtime="20220801 16:23:44.001"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${registro.Input_UltimoNome}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20220801 16:23:44.001" endtime="20220801 16:23:44.001"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${registro.Input_UltimoNome}</arg>
+<arg>${registro.UltimoNome}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220801 16:23:44.001" endtime="20220801 16:23:44.001"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${registro.Input_Telefone}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20220801 16:23:44.001" endtime="20220801 16:23:44.001"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${registro.Input_Telefone}</arg>
+<arg>${registro.Telefone}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220801 16:23:44.001" endtime="20220801 16:23:44.002"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${registro.Input_Email}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20220801 16:23:44.002" endtime="20220801 16:23:44.002"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${registro.Input_Email}</arg>
+<arg>${registro.Email}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220801 16:23:44.002" endtime="20220801 16:23:44.002"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${registro.Input_Senha}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20220801 16:23:44.002" endtime="20220801 16:23:44.002"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${registro.Input_Senha}</arg>
+<arg>${registro.Senha}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220801 16:23:44.002" endtime="20220801 16:23:44.002"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${registro.Button_Cookie}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20220801 16:23:44.003" endtime="20220801 16:23:44.003"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${registro.Button_Cookie}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220801 16:23:44.003" endtime="20220801 16:23:44.003"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${registro.Button_Signup}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20220801 16:23:44.003" endtime="20220801 16:23:44.003"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220801 16:23:44.003" endtime="20220801 16:23:44.003"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" library="BuiltIn">
+<arg>Click Element</arg>
+<arg>${registro.Button_Signup}</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="NOT RUN" starttime="20220801 16:23:44.004" endtime="20220801 16:23:44.004"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${registro.Button_Signup}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220801 16:23:44.004" endtime="20220801 16:23:44.004"/>
+</kw>
+<status status="FAIL" starttime="20220801 16:23:43.997" endtime="20220801 16:23:44.005"/>
+</kw>
+<kw name="E faça o Login" library="login_page">
+<status status="NOT RUN" starttime="20220801 16:23:44.005" endtime="20220801 16:23:44.005"/>
+</kw>
+<status status="FAIL" starttime="20220801 16:23:16.512" endtime="20220801 16:23:44.006"/>
+</kw>
+<kw name="Fechar navegador" library="setup_teardown" type="TEARDOWN">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220801 16:23:44.010" endtime="20220801 16:23:47.716"/>
+</kw>
+<status status="PASS" starttime="20220801 16:23:44.009" endtime="20220801 16:23:47.716"/>
+</kw>
+<status status="FAIL" starttime="20220801 16:23:16.510" endtime="20220801 16:23:47.717">Setup failed:
+Resolving variable '${registro.ACCOUNT}' failed: AttributeError: ACCOUNT</status>
+</test>
+<test id="s1-s1-t2" name="TC02 - Reservando passagens internacionais na classe econômica" line="21">
+<kw name="Acessar o site e logar" library="setup_teardown" type="SETUP">
+<kw name="Dado que eu acesse o php travels" library="home_page">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${geral.URL}</arg>
+<arg>${geral.Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220801 16:23:47.727" level="INFO">Opening browser 'chrome' to base url 'https://www.phptravels.net/'.</msg>
+<status status="PASS" starttime="20220801 16:23:47.725" endtime="20220801 16:24:11.428"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220801 16:24:11.429" endtime="20220801 16:24:11.705"/>
+</kw>
+<status status="PASS" starttime="20220801 16:23:47.724" endtime="20220801 16:24:11.706"/>
+</kw>
+<kw name="E realize o cadastro" library="registro_page">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${registro.ACCOUNT}</arg>
+<arg>20</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<msg timestamp="20220801 16:24:11.709" level="FAIL">Resolving variable '${registro.ACCOUNT}' failed: AttributeError: ACCOUNT</msg>
+<status status="FAIL" starttime="20220801 16:24:11.707" endtime="20220801 16:24:11.709"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${registro.ACCOUNT}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220801 16:24:11.710" endtime="20220801 16:24:11.711"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${registro.A_Signup}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20220801 16:24:11.711" endtime="20220801 16:24:11.711"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${registro.A_Signup}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220801 16:24:11.711" endtime="20220801 16:24:11.712"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${registro.Input_PrimeiroNome}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20220801 16:24:11.712" endtime="20220801 16:24:11.712"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${registro.Input_PrimeiroNome}</arg>
+<arg>${registro.PrimeiroNome}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220801 16:24:11.712" endtime="20220801 16:24:11.712"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${registro.Input_UltimoNome}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20220801 16:24:11.713" endtime="20220801 16:24:11.713"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${registro.Input_UltimoNome}</arg>
+<arg>${registro.UltimoNome}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220801 16:24:11.713" endtime="20220801 16:24:11.713"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${registro.Input_Telefone}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20220801 16:24:11.713" endtime="20220801 16:24:11.714"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${registro.Input_Telefone}</arg>
+<arg>${registro.Telefone}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220801 16:24:11.714" endtime="20220801 16:24:11.714"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${registro.Input_Email}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20220801 16:24:11.714" endtime="20220801 16:24:11.714"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${registro.Input_Email}</arg>
+<arg>${registro.Email}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220801 16:24:11.715" endtime="20220801 16:24:11.715"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${registro.Input_Senha}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20220801 16:24:11.715" endtime="20220801 16:24:11.715"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${registro.Input_Senha}</arg>
+<arg>${registro.Senha}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220801 16:24:11.715" endtime="20220801 16:24:11.716"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${registro.Button_Cookie}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20220801 16:24:11.716" endtime="20220801 16:24:11.716"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${registro.Button_Cookie}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220801 16:24:11.716" endtime="20220801 16:24:11.716"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${registro.Button_Signup}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20220801 16:24:11.717" endtime="20220801 16:24:11.717"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220801 16:24:11.717" endtime="20220801 16:24:11.717"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" library="BuiltIn">
+<arg>Click Element</arg>
+<arg>${registro.Button_Signup}</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="NOT RUN" starttime="20220801 16:24:11.718" endtime="20220801 16:24:11.718"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${registro.Button_Signup}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220801 16:24:11.718" endtime="20220801 16:24:11.718"/>
+</kw>
+<status status="FAIL" starttime="20220801 16:24:11.706" endtime="20220801 16:24:11.719"/>
+</kw>
+<kw name="E faça o Login" library="login_page">
+<status status="NOT RUN" starttime="20220801 16:24:11.719" endtime="20220801 16:24:11.719"/>
+</kw>
+<status status="FAIL" starttime="20220801 16:23:47.724" endtime="20220801 16:24:11.721"/>
+</kw>
+<kw name="Fechar navegador" library="setup_teardown" type="TEARDOWN">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220801 16:24:11.723" endtime="20220801 16:24:14.405"/>
+</kw>
+<status status="PASS" starttime="20220801 16:24:11.722" endtime="20220801 16:24:14.405"/>
+</kw>
+<status status="FAIL" starttime="20220801 16:23:47.722" endtime="20220801 16:24:14.406">Setup failed:
+Resolving variable '${registro.ACCOUNT}' failed: AttributeError: ACCOUNT</status>
+</test>
+<status status="FAIL" starttime="20220801 16:23:16.102" endtime="20220801 16:24:14.412"/>
+</suite>
+<status status="FAIL" starttime="20220801 16:23:16.053" endtime="20220801 16:24:14.419"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="2" skip="0" id="s1" name="Voo">Voo</stat>
+<stat pass="0" fail="2" skip="0" id="s1-s1" name="Voo">Voo.Voo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

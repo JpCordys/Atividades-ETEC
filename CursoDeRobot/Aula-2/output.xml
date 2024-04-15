@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20220727 19:07:46.896" rpa="false" schemaversion="3">
+<suite id="s1" name="Estrutura" source="C:\Users\usuário\Desktop\CursoDeRobot\Aula-2\estrutura.robot">
+<test id="s1-t1" name="Cenário 1: Teste de abrir e fechar site Google." line="20">
+<kw name="abrir site do google">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.google.com.br</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220727 19:07:47.406" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com.br'.</msg>
+<status status="PASS" starttime="20220727 19:07:47.405" endtime="20220727 19:07:55.085"/>
+</kw>
+<status status="PASS" starttime="20220727 19:07:47.404" endtime="20220727 19:07:55.086"/>
+</kw>
+<kw name="fechar navegador">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220727 19:07:55.089" endtime="20220727 19:07:58.431"/>
+</kw>
+<status status="PASS" starttime="20220727 19:07:55.088" endtime="20220727 19:07:58.431"/>
+</kw>
+<status status="PASS" starttime="20220727 19:07:47.403" endtime="20220727 19:07:58.432"/>
+</test>
+<test id="s1-t2" name="Cenário 2: Teste de abrir e fechar site da Globo." line="24">
+<kw name="abrir site da globo">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.globo.com</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220727 19:07:58.437" level="INFO">Opening browser 'chrome' to base url 'https://www.globo.com'.</msg>
+<status status="PASS" starttime="20220727 19:07:58.436" endtime="20220727 19:08:22.765"/>
+</kw>
+<status status="PASS" starttime="20220727 19:07:58.436" endtime="20220727 19:08:22.766"/>
+</kw>
+<kw name="fechar navegador">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220727 19:08:22.772" endtime="20220727 19:08:25.202"/>
+</kw>
+<status status="PASS" starttime="20220727 19:08:22.772" endtime="20220727 19:08:25.202"/>
+</kw>
+<status status="PASS" starttime="20220727 19:07:58.435" endtime="20220727 19:08:25.207"/>
+</test>
+<status status="PASS" starttime="20220727 19:07:46.900" endtime="20220727 19:08:25.223"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="Estrutura">Estrutura</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220727 19:07:46.900" level="ERROR">Error in file 'C:\Users\usuário\Desktop\CursoDeRobot\Aula-2\estrutura.robot' on line 5: Setting variable '$(Variavel1)' failed: Invalid variable name '$(Variavel1)'.</msg>
+<msg timestamp="20220727 19:07:46.901" level="ERROR">Error in file 'C:\Users\usuário\Desktop\CursoDeRobot\Aula-2\estrutura.robot' on line 6: Setting variable '$(Variavel2)' failed: Invalid variable name '$(Variavel2)'.</msg>
+<msg timestamp="20220727 19:07:46.902" level="ERROR">Error in file 'C:\Users\usuário\Desktop\CursoDeRobot\Aula-2\estrutura.robot' on line 7: Setting variable '$(Variavel3)' failed: Invalid variable name '$(Variavel3)'.</msg>
+</errors>
+</robot>

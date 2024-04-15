@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20220729 18:49:42.288" rpa="false" schemaversion="3">
+<suite id="s1" name="Travel" source="C:\Users\usuário\Desktop\CursoDeRobot\Aula-6\travel.robot">
+<test id="s1-t1" name="TC01 - Reservando passagem de destinos dentro dos EUA na classe econômica" line="132">
+<kw name="Dado que eu acesse o php travels">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220729 18:49:49.639" level="INFO">Opening browser 'chrome' to base url 'https://www.phptravels.net/'.</msg>
+<msg timestamp="20220729 18:51:19.916" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20220729 18:51:19.918" level="FAIL">WebDriverException: Message: chrome not reachable
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00DC5FD3+2187219]
+	Ordinal0 [0x00D5E6D1+1763025]
+	Ordinal0 [0x00C73D40+802112]
+	Ordinal0 [0x00C68935+756021]
+	Ordinal0 [0x00C94BB4+936884]
+	Ordinal0 [0x00C90DDC+921052]
+	Ordinal0 [0x00C8E691+910993]
+	Ordinal0 [0x00CC17F0+1120240]
+	Ordinal0 [0x00CC144A+1119306]
+	Ordinal0 [0x00CBC9A6+1100198]
+	Ordinal0 [0x00C96F80+946048]
+	Ordinal0 [0x00C97E76+949878]
+	GetHandleVerifier [0x010690C2+2721218]
+	GetHandleVerifier [0x0105AAF0+2662384]
+	GetHandleVerifier [0x00E5137A+526458]
+	GetHandleVerifier [0x00E50416+522518]
+	Ordinal0 [0x00D64EAB+1789611]
+	Ordinal0 [0x00D697A8+1808296]
+	Ordinal0 [0x00D69895+1808533]
+	Ordinal0 [0x00D726C1+1844929]
+	BaseThreadInitThunk [0x761BFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77CA7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77CA7A6E+238]
+</msg>
+<status status="FAIL" starttime="20220729 18:49:49.638" endtime="20220729 18:51:20.653"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20220729 18:51:20.654" endtime="20220729 18:51:20.654"/>
+</kw>
+<status status="FAIL" starttime="20220729 18:49:49.637" endtime="20220729 18:51:20.657"/>
+</kw>
+<kw name="E realize o cadastro">
+<status status="NOT RUN" starttime="20220729 18:51:20.663" endtime="20220729 18:51:20.663"/>
+</kw>
+<kw name="E faça o Login">
+<status status="NOT RUN" starttime="20220729 18:51:20.664" endtime="20220729 18:51:20.664"/>
+</kw>
+<kw name="Quando eu realizo uma busca de um vôo ida e volta">
+<status status="NOT RUN" starttime="20220729 18:51:20.665" endtime="20220729 18:51:20.665"/>
+</kw>
+<kw name="E saindo de Los Angeles EUA" sourcename="E saindo de ${Texto}">
+<status status="NOT RUN" starttime="20220729 18:51:20.666" endtime="20220729 18:51:20.666"/>
+</kw>
+<kw name="E fecho o navegador">
+<status status="NOT RUN" starttime="20220729 18:51:20.666" endtime="20220729 18:51:20.666"/>
+</kw>
+<status status="FAIL" starttime="20220729 18:49:49.636" endtime="20220729 18:51:20.668">WebDriverException: Message: chrome not reachable
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00DC5FD3+2187219]
+	Ordinal0 [0x00D5E6D1+1763025]
+	Ordinal0 [0x00C73D40+802112]
+	Ordinal0 [0x00C68935+756021]
+	Ordinal0 [0x00C94BB4+936884]
+	Ordinal0 [0x00C90DDC+921052]
+	Ordinal0 [0x00C8E691+910993]
+	Ordinal0 [0x00CC17F0+1120240]
+	Ordinal0 [0x00CC144A+1119306]
+	Ordinal0 [0x00CBC9A6+1100198]
+	Ordinal0 [0x00C96F80+946048]
+	Ordinal0 [0x00C97E76+949878]
+	GetHandleVerifier [0x010690C2+2721218]
+	GetHandleVerifier [0x0105AAF0+2662384]
+	GetHandleVerifier [0x00E5137A+526458]
+	GetHandleVerifier [0x00E50416+522518]
+	Ordinal0 [0x00D64EAB+1789611]
+	Ordinal0 [0x00D697A8+1808296]
+	Ordinal0 [0x00D69895+1808533]
+	Ordinal0 [0x00D726C1+1844929]
+	BaseThreadInitThunk [0x761BFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77CA7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77CA7A6E+238]
+</status>
+</test>
+<test id="s1-t2" name="TC02 - Reservando passagens internacionais na classe econômica" line="149">
+<kw name="Dado que eu acesse o php travels">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220729 18:51:20.732" level="INFO">Opening browser 'chrome' to base url 'https://www.phptravels.net/'.</msg>
+<status status="PASS" starttime="20220729 18:51:20.732" endtime="20220729 18:52:47.832"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220729 18:52:47.832" endtime="20220729 18:52:48.400"/>
+</kw>
+<status status="PASS" starttime="20220729 18:51:20.731" endtime="20220729 18:52:48.400"/>
+</kw>
+<kw name="E realize o cadastro">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${A_Signup}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<msg timestamp="20220729 18:53:12.415" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220729 18:53:12.415" level="FAIL">Element '//a[@href="https://www.phptravels.net/signup"]' not visible after 10 seconds.</msg>
+<status status="FAIL" starttime="20220729 18:52:48.402" endtime="20220729 18:53:12.462"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${A_Signup}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220729 18:53:12.462" endtime="20220729 18:53:12.463"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${Input_PrimeiroNome}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20220729 18:53:12.463" endtime="20220729 18:53:12.463"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${Input_PrimeiroNome}</arg>
+<arg>${PrimeiroNome}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220729 18:53:12.463" endtime="20220729 18:53:12.463"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${Input_UltimoNome}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20220729 18:53:12.463" endtime="20220729 18:53:12.463"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${Input_UltimoNome}</arg>
+<arg>${UltimoNome}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220729 18:53:12.463" endtime="20220729 18:53:12.463"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${Input_Telefone}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20220729 18:53:12.463" endtime="20220729 18:53:12.463"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${Input_Telefone}</arg>
+<arg>${Telefone}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220729 18:53:12.464" endtime="20220729 18:53:12.464"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${Input_Email}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20220729 18:53:12.464" endtime="20220729 18:53:12.464"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${Input_Email}</arg>
+<arg>${Email}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220729 18:53:12.464" endtime="20220729 18:53:12.464"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${Input_Senha}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20220729 18:53:12.464" endtime="20220729 18:53:12.464"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${Input_Senha}</arg>
+<arg>${Senha}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220729 18:53:12.475" endtime="20220729 18:53:12.475"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${Button_Cookie}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20220729 18:53:12.475" endtime="20220729 18:53:12.475"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${Button_Cookie}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220729 18:53:12.475" endtime="20220729 18:53:12.475"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${Button_Signup}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20220729 18:53:12.476" endtime="20220729 18:53:12.476"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220729 18:53:12.476" endtime="20220729 18:53:12.476"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" library="BuiltIn">
+<arg>Click Element</arg>
+<arg>${Button_Signup}</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="NOT RUN" starttime="20220729 18:53:12.476" endtime="20220729 18:53:12.476"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${Button_Signup}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220729 18:53:12.476" endtime="20220729 18:53:12.476"/>
+</kw>
+<status status="FAIL" starttime="20220729 18:52:48.401" endtime="20220729 18:53:12.477"/>
+</kw>
+<kw name="E faça o Login">
+<status status="NOT RUN" starttime="20220729 18:53:12.478" endtime="20220729 18:53:12.478"/>
+</kw>
+<kw name="Quando eu realizo uma busca de um vôo ida e volta">
+<status status="NOT RUN" starttime="20220729 18:53:12.479" endtime="20220729 18:53:12.479"/>
+</kw>
+<kw name="E saindo de Salvador" sourcename="E saindo de ${Texto}">
+<status status="NOT RUN" starttime="20220729 18:53:12.479" endtime="20220729 18:53:12.479"/>
+</kw>
+<kw name="E fecho o navegador">
+<status status="NOT RUN" starttime="20220729 18:53:12.480" endtime="20220729 18:53:12.480"/>
+</kw>
+<status status="FAIL" starttime="20220729 18:51:20.728" endtime="20220729 18:53:12.480">Element '//a[@href="https://www.phptravels.net/signup"]' not visible after 10 seconds.</status>
+</test>
+<test id="s1-t3" name="TC03 - Solicitar visto Americano" line="166">
+<kw name="Dado que eu acesse o php travels">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220729 18:53:12.484" level="INFO">Opening browser 'chrome' to base url 'https://www.phptravels.net/'.</msg>
+<msg timestamp="20220729 18:54:21.214" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220729 18:54:21.215" level="FAIL">WebDriverException: Message: unknown error: DevToolsActivePort file doesn't exist
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00DC5FD3+2187219]
+	Ordinal0 [0x00D5E6D1+1763025]
+	Ordinal0 [0x00C73E78+802424]
+	Ordinal0 [0x00C945F2+935410]
+	Ordinal0 [0x00C90BFE+920574]
+	Ordinal0 [0x00C8E691+910993]
+	Ordinal0 [0x00CC17F0+1120240]
+	Ordinal0 [0x00CC144A+1119306]
+	Ordinal0 [0x00CBC9A6+1100198]
+	Ordinal0 [0x00C96F80+946048]
+	Ordinal0 [0x00C97E76+949878]
+	GetHandleVerifier [0x010690C2+2721218]
+	GetHandleVerifier [0x0105AAF0+2662384]
+	GetHandleVerifier [0x00E5137A+526458]
+	GetHandleVerifier [0x00E50416+522518]
+	Ordinal0 [0x00D64EAB+1789611]
+	Ordinal0 [0x00D697A8+1808296]
+	Ordinal0 [0x00D69895+1808533]
+	Ordinal0 [0x00D726C1+1844929]
+	BaseThreadInitThunk [0x761BFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77CA7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77CA7A6E+238]
+</msg>
+<status status="FAIL" starttime="20220729 18:53:12.484" endtime="20220729 18:54:21.217"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20220729 18:54:21.218" endtime="20220729 18:54:21.218"/>
+</kw>
+<status status="FAIL" starttime="20220729 18:53:12.483" endtime="20220729 18:54:21.219"/>
+</kw>
+<kw name="E realize o cadastro">
+<status status="NOT RUN" starttime="20220729 18:54:21.221" endtime="20220729 18:54:21.221"/>
+</kw>
+<kw name="E faça o Login">
+<status status="NOT RUN" starttime="20220729 18:54:21.222" endtime="20220729 18:54:21.222"/>
+</kw>
+<kw name="E acesso a página de visto">
+<status status="NOT RUN" starttime="20220729 18:54:21.223" endtime="20220729 18:54:21.223"/>
+</kw>
+<kw name="E informo o pais de origem sendo o Brazil" sourcename="E informo o pais de origem sendo o ${Texto}">
+<status status="NOT RUN" starttime="20220729 18:54:21.223" endtime="20220729 18:54:21.223"/>
+</kw>
+<kw name="E fecho o navegador">
+<status status="NOT RUN" starttime="20220729 18:54:21.224" endtime="20220729 18:54:21.224"/>
+</kw>
+<status status="FAIL" starttime="20220729 18:53:12.483" endtime="20220729 18:54:21.226">WebDriverException: Message: unknown error: DevToolsActivePort file doesn't exist
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00DC5FD3+2187219]
+	Ordinal0 [0x00D5E6D1+1763025]
+	Ordinal0 [0x00C73E78+802424]
+	Ordinal0 [0x00C945F2+935410]
+	Ordinal0 [0x00C90BFE+920574]
+	Ordinal0 [0x00C8E691+910993]
+	Ordinal0 [0x00CC17F0+1120240]
+	Ordinal0 [0x00CC144A+1119306]
+	Ordinal0 [0x00CBC9A6+1100198]
+	Ordinal0 [0x00C96F80+946048]
+	Ordinal0 [0x00C97E76+949878]
+	GetHandleVerifier [0x010690C2+2721218]
+	GetHandleVerifier [0x0105AAF0+2662384]
+	GetHandleVerifier [0x00E5137A+526458]
+	GetHandleVerifier [0x00E50416+522518]
+	Ordinal0 [0x00D64EAB+1789611]
+	Ordinal0 [0x00D697A8+1808296]
+	Ordinal0 [0x00D69895+1808533]
+	Ordinal0 [0x00D726C1+1844929]
+	BaseThreadInitThunk [0x761BFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77CA7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77CA7A6E+238]
+</status>
+</test>
+<status status="FAIL" starttime="20220729 18:49:42.322" endtime="20220729 18:54:21.238"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="3" skip="0" id="s1" name="Travel">Travel</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20220729 20:55:17.493" rpa="false" schemaversion="3">
+<suite id="s1" name="TC01" source="C:\Users\usuário\Desktop\CursoDeRobot\Aula-6\Tests\Voo\TC01.robot">
+<test id="s1-t1" name="TC01 - Reservando passagem de destinos dentro dos EUA na classe econômica" line="5">
+<kw name="Dado que eu acesse o php travels" library="Login_Steps">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220729 20:55:20.251" level="INFO">Opening browser 'chrome' to base url 'https://www.phptravels.net/'.</msg>
+<status status="PASS" starttime="20220729 20:55:20.251" endtime="20220729 20:56:09.212"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220729 20:56:09.212" endtime="20220729 20:56:09.441"/>
+</kw>
+<status status="PASS" starttime="20220729 20:55:20.250" endtime="20220729 20:56:09.441"/>
+</kw>
+<kw name="E realize o cadastro" library="Login_Steps">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${Home.A_Signup}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<msg timestamp="20220729 20:56:20.369" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220729 20:56:20.371" level="FAIL">Element '' not visible after 10 seconds.</msg>
+<status status="FAIL" starttime="20220729 20:56:09.444" endtime="20220729 20:56:20.587"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${Home.A_Signup}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220729 20:56:20.588" endtime="20220729 20:56:20.588"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${Login.Input_PrimeiroNome}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20220729 20:56:20.589" endtime="20220729 20:56:20.589"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${Login.Input_PrimeiroNome}</arg>
+<arg>${PrimeiroNome}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220729 20:56:20.589" endtime="20220729 20:56:20.589"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${Login.Input_UltimoNome}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20220729 20:56:20.589" endtime="20220729 20:56:20.589"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${Login.Input_UltimoNome}</arg>
+<arg>${UltimoNome}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220729 20:56:20.589" endtime="20220729 20:56:20.589"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${Login.Input_Telefone}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20220729 20:56:20.589" endtime="20220729 20:56:20.589"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${Login.Input_Telefone}</arg>
+<arg>${Telefone}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220729 20:56:20.589" endtime="20220729 20:56:20.590"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${Login.Input_Email}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20220729 20:56:20.590" endtime="20220729 20:56:20.590"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${Login.Input_Email}</arg>
+<arg>${Email}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220729 20:56:20.590" endtime="20220729 20:56:20.590"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${Login.Input_Senha}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20220729 20:56:20.590" endtime="20220729 20:56:20.590"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${Login.Input_Senha}</arg>
+<arg>${Senha}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220729 20:56:20.591" endtime="20220729 20:56:20.591"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${Login.Button_Cookie}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20220729 20:56:20.591" endtime="20220729 20:56:20.591"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${Login.Button_Cookie}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220729 20:56:20.591" endtime="20220729 20:56:20.591"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${Login.Button_Signup}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20220729 20:56:20.592" endtime="20220729 20:56:20.592"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220729 20:56:20.592" endtime="20220729 20:56:20.592"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" library="BuiltIn">
+<arg>Click Element</arg>
+<arg>${Login.Button_Signup}</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="NOT RUN" starttime="20220729 20:56:20.592" endtime="20220729 20:56:20.592"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${Login.Button_Signup}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220729 20:56:20.592" endtime="20220729 20:56:20.593"/>
+</kw>
+<status status="FAIL" starttime="20220729 20:56:09.443" endtime="20220729 20:56:20.594"/>
+</kw>
+<kw name="E faça o Login" library="Login_Steps">
+<status status="NOT RUN" starttime="20220729 20:56:20.596" endtime="20220729 20:56:20.596"/>
+</kw>
+<kw name="Quando eu realizo uma busca de um vôo ida e volta" library="Voo_Steps">
+<status status="NOT RUN" starttime="20220729 20:56:20.598" endtime="20220729 20:56:20.598"/>
+</kw>
+<kw name="E saindo de Los Angeles EUA" library="Voo_Steps" sourcename="E saindo de ${Texto}">
+<status status="NOT RUN" starttime="20220729 20:56:20.599" endtime="20220729 20:56:20.599"/>
+</kw>
+<kw name="E fecho o navegador" library="Login_Steps">
+<status status="NOT RUN" starttime="20220729 20:56:20.599" endtime="20220729 20:56:20.599"/>
+</kw>
+<status status="FAIL" starttime="20220729 20:55:20.248" endtime="20220729 20:56:20.601">Element '' not visible after 10 seconds.</status>
+</test>
+<status status="FAIL" starttime="20220729 20:55:17.497" endtime="20220729 20:56:20.603"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="TC01">TC01</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
