@@ -1,0 +1,10 @@
+C:\Users\usuário\Documents\Visual Studio 2010\Projects\33811QueroPizza\33811QueroPizza\bin\33811QueroPizza.dll
+C:\Users\usuário\Documents\Visual Studio 2010\Projects\33811QueroPizza\33811QueroPizza\bin\33811QueroPizza.pdb
+C:\Users\usuário\Documents\Visual Studio 2010\Projects\33811QueroPizza\33811QueroPizza\bin\office.dll
+C:\Users\usuário\Documents\Visual Studio 2010\Projects\33811QueroPizza\33811QueroPizza\bin\Microsoft.Office.Interop.SmartTag.dll
+C:\Users\usuário\Documents\Visual Studio 2010\Projects\33811QueroPizza\33811QueroPizza\bin\office.xml
+C:\Users\usuário\Documents\Visual Studio 2010\Projects\33811QueroPizza\33811QueroPizza\obj\Debug\33811QueroPizza.dll
+C:\Users\usuário\Documents\Visual Studio 2010\Projects\33811QueroPizza\33811QueroPizza\obj\Debug\33811QueroPizza.pdb
+C:\Users\usuário\Documents\Visual Studio 2010\Projects\33811QueroPizza\33811QueroPizza\obj\Debug\Interop.VsWebApplicationHost.dll
+C:\Users\usuário\Documents\Visual Studio 2010\Projects\33811QueroPizza\33811QueroPizza\obj\Debug\33811QueroPizza.csproj.ResolveComReference.cache
+C:\Users\usuário\Documents\Visual Studio 2010\Projects\33811QueroPizza\33811QueroPizza\obj\Debug\33811QueroPizza.csprojResolveAssemblyReference.cache
