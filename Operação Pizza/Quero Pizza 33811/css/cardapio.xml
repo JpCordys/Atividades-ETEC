@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cardapio>
+	<pizzatra>
+    <cdpizza>01</cdpizza>
+		<nmpizza>Mussarela</nmpizza>
+		<ingredientes>Mussarela e Rodelas de tomate.</ingredientes>
+		<preco>R$36,00.</preco>
+	</pizzatra>
+  
+	<pizzatra>
+		<cdpizza>02</cdpizza>
+    <nmpizza>Escarola</nmpizza>
+		<ingredientes>Escarola refogada e mussarela.</ingredientes>
+		<preco>R$37,50.</preco>
+	</pizzatra>
+  
+	<pizzatra>
+		<cdpizza>03</cdpizza>
+    <nmpizza>Atum</nmpizza>
+		<ingredientes>Atum e cebola.</ingredientes>
+		<preco>R$35,00.</preco>
+	</pizzatra>
+  
+	<pizzatra>
+		<cdpizza>04</cdpizza>
+    <nmpizza>Lombo</nmpizza>
+		<ingredientes>Mussarela, lombo defumado e cebola.</ingredientes>
+		<preco>R$37,00.</preco>
+	</pizzatra>
+  
+	<pizzatra>
+		<cdpizza>05</cdpizza>
+    <nmpizza>Saborosa</nmpizza>
+		<ingredientes>Presunto com catupiry.</ingredientes>
+		<preco>R$36,00.</preco>
+	</pizzatra>
+  
+	<pizzaesp>
+		<cdpizza>06</cdpizza>
+    <nmpizza>Mussarela Especial</nmpizza>
+		<ingredientes>Palmito, tomate seco com catupiry.</ingredientes>
+		<preco>R$40,00.</preco>
+	</pizzaesp>
+  
+	<pizzaesp>
+		<cdpizza>07</cdpizza>
+    <nmpizza>Ovinho</nmpizza>
+		<ingredientes>Mussarela, presunto fatiado e ovo.</ingredientes>
+		<preco>R$42,60.</preco>
+	</pizzaesp>
+  
+	<pizzaesp>
+		<cdpizza>08</cdpizza>
+    <nmpizza>Mussarela Especial</nmpizza>
+		<ingredientes>Mussarela, tomate seco e manjeicão</ingredientes>
+		<preco>R$41,50.</preco>
+	</pizzaesp>
+  
+	<pizzaesp>
+		<cdpizza>09</cdpizza>
+    <nmpizza>Dois Queijos</nmpizza>
+		<ingredientes>Mussarela e catupiry.</ingredientes>
+		<preco>R$40,80.</preco>
+	</pizzaesp>
+  
+	<pizzaesp>
+		<cdpizza>10</cdpizza>
+    <nmpizza>Delícia</nmpizza>
+		<ingredientes>Mussarela, tomate seco e salsinha.</ingredientes>
+		<preco>R$45,20.</preco>
+	</pizzaesp>
+</cardapio>

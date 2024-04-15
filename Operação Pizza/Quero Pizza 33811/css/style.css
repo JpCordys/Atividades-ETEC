@@ -1,0 +1,141 @@
+* { font-family: 'Noticia Text', serif; font-size: 24px}
+
+html, body {padding: 0px; margin: 0px; background-color: #4F4F4F;}
+header {}
+a {color: white; text-decoration: none;}
+h1 {color: white; margin-left: 45px;}
+h4 { color: white; }
+img { max-width: 100%; display: block; }
+p { color: white; margin: 10px; word-wrap: break-word;}
+ul { top: 0px; color: white; margin: 60px; }
+li { top: 0px; color: white; margin: 17px;}
+
+#nov {  }
+#pro {  }
+#car {  }
+#con {  }
+#sob {  }
+
+#modfont {
+	font-size: 50px;
+	margin-top: 40px;
+	margin-left: 0px;
+}
+
+#modfoot {
+background-color: #1C1C1C; width: 100%; height: 95px;
+}
+
+.modmenu {
+	width: 100%;
+	height: 150px;
+}
+
+.cabeca {
+	width: 255px;
+	height: 255px;
+}
+
+.itemcabeca {
+	padding-top: 5px; 
+	padding-bottom: 5px; 
+	color: grey;
+}
+
+#item {
+	height: 40px;
+	padding-top: 42px;
+	padding-left: 1120px;
+	padding-right: 30px;
+	float: left;
+}
+
+#reference {
+	height: 0px;
+	width: 0px;
+}
+
+#concar{
+	margin: 30px;
+	height: 800px;
+	width: 650px;
+	background-color: #212121;
+}
+
+#donwr {
+	height: 96px;
+	width: 96px;
+	position: fixed;
+	right: 5px;
+	bottom: 60px;
+	z-index: 1;
+}
+
+.conteno {
+	display: flex;
+	flex-direction: row;
+	margin: 50px;
+}
+
+.contepi {
+	display: flex;
+	flex-direction: row;
+	margin: 50px;
+}
+
+.contegr {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 50px;
+}
+
+.concon {
+	width: 50%;
+	height: 210px;
+	background-color: #212121;
+	padding: 15px;
+}
+
+.concon1 {
+	width: 50%;
+	height: 210px;
+	background-color: #212121;
+	padding: 15px;
+}
+
+.consob {
+	width: 66%;
+	height: 230px;
+	background-color: #212121;
+	padding: 10px;
+}
+
+.foot {
+	width: 100%;
+	height: 50px;
+	bottom: 0px;
+	background-color: #1C1C1C;
+	text-align: center;
+	z-index: 0;
+}
+
+@media only screen and (max-width: 414px) {
+
+	header { height: 110px;}
+	.contepi { width: 340px; margin: 28px;}
+	.conteno { width: 360px; margin: 28px;}
+	.contegr { width: 360px; margin: 28px;}
+	.donwr { left: 315px; }
+	.contepi { flex-direction: column; }
+
+	.concon1 { height: 400px; }
+	.concon { height: 400px; }
+	.consob { height: 480px; width: 350px;}
+	.foot { height: 70px; }
+
+	#modpro { flex-direction: column; }
+	#modfont { font-size: 50px; margin-top: 17px; margin-left: 0px; }
+	#item {	height: 40px; padding-top: 80px; padding-left: 290px; padding-right: 30px; float: left; }
+	#concar{ margin: 30px; height: 800px; width: 340px; background-color: #212121;}
+}
